@@ -1,12 +1,44 @@
-body{
-    width: 100%;
-    box-sizing: border-box;
-}
-.text-random{
+
+#parent{
     height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    gap: 20px;
     justify-content: center;
+    gap: 10px;
+}
+#red{
+    padding: 10px;
+    background-color: red;
+    color: black;
+    font-weight: 800;
+}
+#blue{
+    padding: 10px;
+    background-color: Blue;
+    color: black;
+    font-weight: 800;
+}
+#black{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+}
+#orange{
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    font-weight: 800;
+}
+#yellow{
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: 800;
+}
+#parent h1{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
 }
